@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Sudhanshu Singh](https://github.com/sudhanshusingh-g/coming-soon-page)
-- Live Site URL: [Sudhanshu Singh](https://sudhanshusingh-g.github.io/coming-soon-page/)
+- Solution URL: [Github](https://github.com/sudhanshusingh-g/coming-soon-page)
+- Live Site URL: [Coming Soon Landing Page](https://sudhanshusingh-g.github.io/coming-soon-page/)
 
 
 
