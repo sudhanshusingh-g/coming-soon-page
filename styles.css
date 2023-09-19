@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+/* - Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+- Weights: 300, 400, 600 */
+:root{
+    --desaturatedRed: hsl(0, 36%, 70%);
+    --softRed: hsl(0, 93%, 68%);
+    --grayishRed: hsl(0, 6%, 24%);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-repeat: repeat;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.about{
+    height: 100%;
+    width: 60%;
+}
+
+.content{
+    width: 35vw;
+    margin: 8rem auto;
+}
+.logo{
+    width: 35vw;
+    margin: 3rem auto;
+}
+.content h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+span{
+    color: var(--desaturatedRed);
+    font-weight: 300;
+}
+.content p{
+    margin: 1.2rem 0;
+    line-height: 1.5;
+    width: 30vw;
+    color: var(--desaturatedRed);
+}
+.form{
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.1px solid var(--desaturatedRed);
+    border-radius: 2rem;
+}
+
+button{
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    width: 5vw;
+    border: none;
+    position: relative;
+    left: 4rem;
+    box-shadow: 0px 1px 4px 2px hsla(0, 2%, 58%, 0.589);
+    cursor: pointer;
+    background: linear-gradient(135deg,  hsl(0, 80%, 86%) , hsl(0, 74%, 74%)),linear-gradient(135deg,  hsl(0, 80%, 86%),  hsl(0, 74%, 74%));
+}
+button:hover{
+    background: linear-gradient(135deg,  hsl(0, 46%, 90%) , hsl(0, 68%, 85%)),linear-gradient(135deg,  hsl(0, 80%, 86%),  hsl(0, 73%, 85%));
+}
+form input{
+    outline: none;
+    border: none;
+}
+input::placeholder{
+    color: var(--desaturatedRed);
+    font-weight: 400;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.image{
+    background-image: url(./images/hero-desktop.jpg);
+    width: 40%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
